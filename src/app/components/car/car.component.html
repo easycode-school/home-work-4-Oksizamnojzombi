@@ -1,0 +1,30 @@
+<h1>CAR Component</h1>
+<div class="container">
+  <div class="box">
+    <h3>Car name</h3>
+    <p>{{ carObj.name }}</p>
+  </div>
+
+  <div class="box">
+    <h3>Mileage</h3>
+    <p>{{ carObj.miliage }}</p>
+  </div>
+
+  <div class="box">
+    <h3>Tank capacity, l</h3>
+    <p>{{ carObj.tankVolume }}</p>
+  </div>
+  <div class="box">
+    <h3>The current amount of gasoline</h3>
+    <p>{{ carObj.currentFuel }}</p>
+  </div>
+</div>
+<div class="another-spec">
+  <h3>The remaining characteristics</h3>
+  <p>{{ carObj.specifications }}</p>
+</div>
+
+<div class="buttons">
+  <button class="btn" (click)="onClickDrive()" [ngClass]="{cantdrive: cantDrive}">Drive</button>
+  <button class="btn second" (click)="onClickFillUp()" [ngClass]="{show: noFuel}">Fill UP</button>
+</div> 

@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+  color: orangered;
+  font-size: 38px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0c4647;
+}
+
+h3 {
+  font-size: 20px;
+  color: #262827;
+}
+
+.another-spec,
+.box {
+  text-align: center;
+}
+
+.box {
+  width: 25%;
+  padding: 5px 10px;
+  border: 1px solid #262827;
+}
+
+.box p {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+  padding: 25px 40px;
+  border-radius: 8px;
+  margin: 0 0 80px;
+}
+
+.btn {
+  background: #F9A137;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 8px 15px;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;
+  border: 2px solid #81F012;
+}
+
+.btn:hover {
+  border: 2px solid #FFFF00;
+}
+
+.second {
+  display: none;
+}
+
+.second.show {
+  display: block;
+}
+
+.cantdrive {
+  display: none;
+} 
